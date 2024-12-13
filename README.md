@@ -39,22 +39,22 @@ See the [examples](examples/).
 
 ## Quickstart
 
-1. Clone repository (make sure you include `--recursive`):
-   ```shell
-   git clone --recursive https://github.com/lbr-stack/pyfri.git
-   ```
-2. Change directory:
-   ```shell
-   cd pyfri
-   ```
+1. Install Pybind
+```shell
+pip install pybind11
+```
+
+2. Prepare FRI SDK
+```shell
+git clone https://github.com/lbr-stack/fri
+```
+whichever branch, they are the same actually.
+Replace the `FRI_Client-SDK_Cpp.zip` with your own version.
+
 3. Install:
    ```shell
-   export FRI_CLIENT_VERSION=1.15
    pip3 install .
    ```
-
-> [!NOTE]
-> FRI client is fetched from [fri](https://github.com/lbr-stack/fri) and must be available as branch, refer [README](https://github.com/lbr-stack/fri?tab=readme-ov-file#contributing).
 
 4. Setup the hardware, see [Hardware Setup](https://lbr-stack.readthedocs.io/en/latest/lbr_fri_ros2_stack/lbr_fri_ros2_stack/doc/hardware_setup.html).
 
