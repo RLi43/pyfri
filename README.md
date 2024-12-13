@@ -60,6 +60,10 @@ Replace the `FRI_Client-SDK_Cpp.zip` with your own version.
 
 5. Checkout the [Example Applications](https://lbr-stack.readthedocs.io/en/latest/pyfri/doc/example_applications.html#example-applications).
 
+## KUKA UDP External Control
+
+`kuka_udp.py` provides an interface to control the default robot application running on the controller without smartPAD.
+
 ## Citation
 If you enjoyed using this repository for your work, we would really appreciate ❤️ if you could leave a ⭐ and / or cite it, as it helps us to continue offering support.
 
